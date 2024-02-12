@@ -1,5 +1,18 @@
 @import "~bootstrap/scss/bootstrap";
 
+body {
+    background-color: black;
+    border: 1px solid white;
+}
 ul {
     list-style: none;
+    li {
+        margin: 20px 0;
+        h5 {
+            font-size: 19px;
+        }
+        h6 {
+            font-size: 15px;
+        }
+    }
 }
