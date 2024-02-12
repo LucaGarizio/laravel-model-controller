@@ -3,16 +3,23 @@
 body {
     background-color: black;
     border: 1px solid white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100px;
 }
 ul {
     list-style: none;
     li {
         margin: 20px 0;
         h5 {
-            font-size: 19px;
+            font-size: 20px;
         }
         h6 {
-            font-size: 15px;
+            font-size: 17px;
         }
     }
 }
